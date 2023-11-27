@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Web app.css">
+    <title>進路相談室</title>
+  </head>
+  <body>
+    <h1>進路相談室</h1>
+    <hr width="100%">
+    <hr width="100%">
+    <p>どこで学ぶ？（地方）</p>
+  <dis class="form-group">
+    <label for="region">地方</label>
+    <select id="region" name="region" class="form-control">
+      <option value="北海道">北海道</option>
+      <option value="東北">東北</option>
+      <option value="関東">関東</option>
+      <option value="中部">中部</option>
+      <option value="近畿">近畿</option>
+      <option value="中国四国">中国四国</option>
+      <option value="九州">九州</option>
+    </select>
+
+    <p>学びたい学問は？</p>
+  <dis class="form-group">
+    <label for="major">学問</label>
+    <select id="major" name="major" class="form-control">
+      <option value="医学">医学</option>
+      <option value="歯学">歯学</option>
+      <option value="獣医学">獣医学</option>
+      <option value="薬学">薬学</option>
+      <option value="農学">農学</option>
+      <option value="工学">工学</option>
+      <option value="理学">理学</option>
+      <option value="法学">法学</option>
+      <option value="経済学">経済学</option>
+      <option value="文学">文学</option>
+      <option value="社会学">社会学</option>
+      <option value="史学">史学</option>
+      <option value="経営学">経営学</option>
+      <option value="教育学">教育学</option>
+      <option value="その他">その他</option>
+    </select>
+
+    <p>現在の偏差値（半角）</p>
+    <input type="text" id="user-name" size="40" maxlength="20"
+    placeholder="例）50">
+    <p>お名前</p>
+    <input type="text" id="name" size="40" maxlength="20"
+    placeholder="例）山田 太郎">
+    <hr>
+    <button id="assessment">診断する</button>
+    <p>間違いのないように入力してください。</p>
+    <div id="result-area"></div>
+    <div id="tweet-area"></div>
+    <script src="Web app.js"></script>
+  </body>
+</html>
